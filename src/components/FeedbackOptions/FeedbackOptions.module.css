@@ -1,0 +1,23 @@
+.btn {
+  border: 1px solid rgb(196, 196, 196);
+  outline: none;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px 1px rgb(151, 151, 151);
+  transform: scale(1.001);
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.btnWrap {
+  display: flex;
+  justify-content: center;
+}
